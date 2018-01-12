@@ -1,0 +1,17 @@
+{
+  "require": {
+    "klein/klein": "^2.1",
+    "socialconnect/auth": "^1.5",
+    "doctrine/cache": "^1.6",
+    "limen/redmodel": "^1.0",
+    "jenssegers/date": "^3.2"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+      "psr-0": {
+        "controllers\\": "src/",
+        "models\\": "src/",
+        "helpers\\": "src/"
+      }
+  }
+}
